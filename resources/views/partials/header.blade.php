@@ -1,6 +1,4 @@
-@extends('layouts.app')
 
-@section('header-content')
 <header>
 
     <navbar id="app_navbar">
@@ -62,5 +60,3 @@
         </navbar>
 
 </header>
-
-@endsection

@@ -1,7 +1,3 @@
-@extends('layouts.app')
-
-@section('footer-content')
-
 <footer>
 
 
@@ -24,4 +20,3 @@
     </section>
 </footer>
 
-@endsection
