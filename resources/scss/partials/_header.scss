@@ -1,0 +1,34 @@
+@use './variable' as *;
+
+#app_navbar {
+    ul {
+        line-height: 10px;
+
+        :hover {
+            color: $bg-main;
+            border-bottom: 3px solid $bg-main;
+        }
+
+        path {
+            color: $bg-main
+        }
+    }
+
+    .small {
+        background-color: $bg-main;
+        height: 50px;
+    }
+
+    .searching {
+        margin-right: 30px;
+
+        path {
+            color: black;
+        }
+    }
+
+    .barred {
+        border: 2px solid $bg-main;
+        width: 25px;
+    }
+}
