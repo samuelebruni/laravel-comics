@@ -1,0 +1,32 @@
+@use './variable' as *;
+
+#app_main {
+    background-color: $bg-main;
+    position: relative;
+    z-index: 5000;
+
+    img {
+        height: 50px;
+    }
+
+    .container {
+        color: white;
+    }
+}
+
+#app_bottommain {
+    background-image: url(../img/footer-bg.jpg);
+    color: #736b61;
+    background-size: cover;
+
+    h5 {
+        color: white;
+    }
+
+    img {
+        margin-top: -5rem;
+    }
+
+
+
+}

@@ -15,18 +15,13 @@
 </head>
 
 <body>
-
-    <header>
-        @yield('header-content')
-    </header>
+        @include('partials.header')
 
     <main>
-        @yield('main-content')
+        @yield('content')
     </main>
 
-    <footer>
-        @yield('footer-content')
-    </footer>
+        @include('partials-footer')
 
 </body>
 

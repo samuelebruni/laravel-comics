@@ -1,0 +1,26 @@
+@use './variable' as *;
+
+#app_footer {
+
+    background-color: $bg-foot;
+    margin-top: -7rem;
+    position: relative;
+    z-index: 10000;
+
+    .container {
+        height: 100px;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+
+    div {
+        color: white;
+    }
+
+    h4 {
+        color: $bg-main;
+    }
+}
