@@ -4,5 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('main');
+
+    $comics = config('db');
+    return view('main', compact('comics'));
 })->name('main');

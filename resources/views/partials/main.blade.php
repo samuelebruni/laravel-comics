@@ -1,6 +1,4 @@
 
-@section('main-content')
-
 <main>
     <section id="app_main">
         <div class="container position-relative">
@@ -39,7 +37,7 @@
                 </div>
                 <div class="d-flex justify-content-center align-items-center gap-2">
                     <div>
-                        <img src="" alt="">
+                        <img src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg')}}" alt="">
                     </div>
                     <div>
                         <span>DG POWER VISA</span>
@@ -99,11 +97,9 @@
                 </div>
 
                 <div id="img_bg" class="col-6">
-                    <img src="../assets/img/dc-logo-bg.png" alt="">
+                    <img src="{{ Vite::asset('resources/img/dc-logo-bg.png')}}" alt="">
                 </div>
             </div>
         </div>
     </section>
 </main>
-
-@endsection

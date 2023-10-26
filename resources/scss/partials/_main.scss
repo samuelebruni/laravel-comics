@@ -1,5 +1,16 @@
 @use './variable' as *;
 
+#app_jumbotron {
+    width: 100%;
+    background-image: url(../img/jumbotron.jpg);
+    height: 450px;
+}
+
+button {
+    top: 95%;
+    left: 15%;
+}
+
 #app_main {
     background-color: $bg-main;
     position: relative;
@@ -29,4 +40,20 @@
 
 
 
+}
+
+#app_product {
+    background-color: black;
+
+    img {
+        height: 220px;
+    }
+
+    .card {
+        height: 250px;
+        background-color: black;
+        border: none;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
 }

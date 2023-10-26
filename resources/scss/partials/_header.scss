@@ -2,7 +2,7 @@
 
 #app_navbar {
     ul {
-        line-height: 10px;
+        line-height: 120px;
 
         :hover {
             color: $bg-main;
@@ -16,7 +16,7 @@
 
     .small {
         background-color: $bg-main;
-        height: 50px;
+        height: 30px;
     }
 
     .searching {
@@ -25,10 +25,5 @@
         path {
             color: black;
         }
-    }
-
-    .barred {
-        border: 2px solid $bg-main;
-        width: 25px;
     }
 }

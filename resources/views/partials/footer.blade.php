@@ -1,6 +1,4 @@
 <footer>
-
-
     <section class="" id="app_footer">
         <div class="container d-flex justify-content-between align-items-center">
             <div class="d-flex align-items-center">

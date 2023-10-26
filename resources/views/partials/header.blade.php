@@ -51,7 +51,6 @@
                                             </svg>
                                         </div>
                                     </div>
-                                    <div class="barred"></div>
                                 </div>
                             </li>
                         </ul>

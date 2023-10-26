@@ -18,16 +18,16 @@
     <header>
         @include('partials.header')
     </header>    
-
+    
     <main>
+        @include('partials.jumbotron')
         @yield('content')
+        @include('partials.main')
     </main>
     
     <footer>
          @include('partials.footer')
     </footer>
-       
-
 </body>
 
 </html>
